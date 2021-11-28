@@ -1,11 +1,9 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/root/root.css);
 @import url(../blocks/rotation/rotation.css);
 
 
 /* page */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__footer/page__footer.css);
 
 /* header */
@@ -68,7 +66,7 @@
 
 /* table */
 @import url(../blocks/table/table.css);
-@import url(../blocks/table/__cell/_theme/table__cell_theme_light.css);
+@import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
@@ -91,12 +89,8 @@
 
 /* resources */
 @import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__section-subtitle/resources__section-subtitle.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
-@import url(../blocks/resources/__logo-link/resources__logo-link.css);
-
-/* logo-zone */
-@import url(../blocks/logo-zone/logo-zone.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -109,3 +103,4 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
+@import url(../blocks/subtitle-section-margin/subtitle-section-margin.css);
